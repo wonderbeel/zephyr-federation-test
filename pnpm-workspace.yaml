@@ -1,0 +1,11 @@
+packages:
+  - apps/*
+onlyBuiltDependencies:
+  - esbuild
+catalog:
+  "@vitejs/plugin-vue": ^6.0.1
+  typescript: ^5.9.3
+  vite: npm:rolldown-vite@latest
+  vite-plugin-zephyr: ^0.1.1
+  vue: ^3.5.24
+  vue-tsc: ^3.1.3

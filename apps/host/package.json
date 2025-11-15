@@ -1,0 +1,30 @@
+{
+  "name": "host",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --port 5000 --strictPort",
+    "serve": "vite preview --port 5000 --strictPort",
+    "build": "vite build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.13.1",
+  "dependencies": {
+    "vue": "catalog:"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vite-plugin-zephyr": "catalog:",
+    "vue-tsc": "catalog:"
+  },
+  "zephyr:dependencies": {
+    "bar": "zephyr:bar@*",
+    "foo": "zephyr:bar@*"
+  }
+}

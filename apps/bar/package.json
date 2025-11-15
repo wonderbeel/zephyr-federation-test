@@ -1,0 +1,27 @@
+{
+  "name": "bar",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "vite --port 5001 --strictPort",
+    "serve": "vite preview --port 5001 --strictPort",
+    "build": "vite build",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "catalog:"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "catalog:",
+    "typescript": "catalog:",
+    "vite": "catalog:",
+    "vite-plugin-zephyr": "catalog:",
+    "vue-tsc": "catalog:"
+  },
+  "zephyr:dependencies": {
+    "foo": "zephyr:bar@*"
+  }
+}
