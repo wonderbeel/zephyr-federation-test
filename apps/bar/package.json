@@ -22,6 +22,6 @@
     "vue-tsc": "catalog:"
   },
   "zephyr:dependencies": {
-    "foo": "zephyr:bar@*"
+    "foo": "zephyr:foo@*"
   }
 }

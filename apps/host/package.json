@@ -25,6 +25,6 @@
   },
   "zephyr:dependencies": {
     "bar": "zephyr:bar@*",
-    "foo": "zephyr:bar@*"
+    "foo": "zephyr:foo@*"
   }
 }
